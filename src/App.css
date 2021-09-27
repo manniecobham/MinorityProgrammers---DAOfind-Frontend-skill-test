@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    letter-spacing: .4px;
+    background-image: linear-gradient(95.81deg, rgb(76, 184, 255) 2.29%,#143c8b 61.39%);
+}
+.App {
+    
+    overflow-x: none;
+    margin-right: 0;
+}
+.Sidebar {
+    position: fixed;
+    height: 100%;
+    width: 18%;
+    background-image: linear-gradient(95.81deg, rgb(136, 199, 241) 2.29%, #275fce 61.39%);
+    margin: 0;
+    padding: 20px;
+}
+
+.SidebarList{
+    color: cornsilk;
+    position: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: absolute;
+    list-style-type: none;
+}
+.SidebarList img{
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-right: 40px;
+    padding-top: 40px;
+    justify-self: center;
+}
+
+#sideTxt{
+    list-style: none;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0px 10px 16px;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    flex: row;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-image: linear-gradient(95.81deg, rgb(76, 184, 255) 2.29%,#143c8b 61.39%);
+    background-size: 100%;
+}
+#sideText :hover {
+    background-color: blue;
+}
+.app-container {
+    margin-left: 320px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    width: 72%;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(95.81deg, rgb(76, 184, 255) 2.29%,#143c8b 61.39%);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    min-width: 200px;
+    display: inline-block;
+    position: inherit;
+    text-align: center;
+    size: 100%;
+}
+table {
+    display: inline-block;
+    padding: 30px;
+    margin-top: 6%;
+}
+table td {
+    width: 20%;
+}
+
+table tr :hover{
+    cursor: pointer;
+    background-image: linear-gradient(to left rgb(52, 166, 241), rgb(1, 77, 128));
+}
+#tableName {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    text-align: center;
+    vertical-align: center;
+}
+#tableName img{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 10px 8px;
+    border-radius: 18px;
+}
+#tableName #nameTxt {
+    margin-left: 20px;
+    vertical-align: center;
+    text-align: center;
+}
+table th button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+table th button :hover {
+    background-image: linear-gradient(to left rgb(52, 166, 241), rgb(1, 77, 128));
+}
+table #thName {
+    text-align: left;
+    margin-right: 100px;
+}
+table .cate {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+table .twit {
+    margin-left: 80px;
+}
+#tableHeader {
+    margin-left: 8%;
+    margin-top: 4%;
+    position: absolute;
+    display: block;
+    height:inherit;
+}
+.app-container #tableHeader button {
+    text-decoration: none;
+    border: none;
+    padding: 4px 10px;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: #3459a3;
+    color: white;
+    transition: all .3s ease-in-out;
+    
+}
+.app-container #tableHeader button :hover {
+    background-color: inherit;
+    transform: scale(1.5);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.tableDets button {
+    width: 30%;
+    height: 150px;
+    border: none;
+    margin-top: 3%;
+    color: white;
+    background-color: #27467a;
+    box-shadow: 0 20px 50px rgb(59, 43, 91);
+    border-radius: 10px;
+    font-size: 1.4rem;
+    text-align: left;
+    vertical-align: center;
+}
+.tableDets #numDAO {
+    margin-right: 5%;
+}
+.tableDets #totAUM {
+    margin-left: 5%;
+}
+form {
+    margin-left: 320px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 72%;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(95.81deg, rgb(76, 184, 255) 2.29%,#143c8b 61.39%);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    min-width: 200px;
+    display: block;
+    position: inherit;
+    text-align: center;
+}
+.form-div {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.form-div input {
+    border: 1px solid #ced4da;
+    background-image: linear-gradient(95.81deg, rgb(76, 184, 255) 2.29%,#143c8b 61.39%);
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    border-radius: .25rem;
+}
+.formName {
+    width: 50%;
+    margin-left: 0;
+}
+
+form .descSub {
+    margin-left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+.descSub .formDesc {
+    height: 120px;
+    width: 10cm;
+}
+.parentDiv .formbtn {
+    cursor: pointer;
+    margin-left: 40px;
+    margin-bottom: 2rem;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #ced4da;
+    background-image: linear-gradient(95.81deg, rgb(76, 184, 255) 2.29%,#143c8b 61.39%);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+form h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.search {
+    margin-left: 320px;
+    padding-top: 20px;
+    position: relative;
+}
+.search input{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5d6d7e;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    width: 50%;
+    background-image: linear-gradient(95.81deg, rgb(76, 184, 255) 2.29%,#2854ac 61.39%);;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    font-weight: 510;
+    line-height: 1.8;
+}
+.learnCard{
+    margin-right: 20px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: inherit;
+}
+.parentLearn {
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.learnCard img {
+    flex-shrink: 0;
+    width: 100%;
+    padding: 10px 10px 20px 0px;
+}
+.learnCard h2 {
+    font-weight: 500;
+    text-align: center;
+    top: 4em;
+    display: block;
+    font-size: 18px;
+}
+.learnCard p {
+    color: rgb(78, 78, 245);
+    text-align: center;
+    margin-bottom: 55px;
+    bottom: 20px;
+    display:block;
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 500;
+}
+.learnCard a {
+    text-decoration: none;
+    display: block;
+    width: 140px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 700!important;
+    color: #345ba0!important;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 25px;
+    position: absolute;
+    bottom: 25px;
+    background: #4cb8ff;
+    align-content: center;
+}
