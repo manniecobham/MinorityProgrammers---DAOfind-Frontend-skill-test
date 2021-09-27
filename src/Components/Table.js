@@ -9,20 +9,12 @@ class Table extends React.Component {
   constructor(props) {
     super(props);
     this.inputChg = this.inputChg.bind(this);
-    this.filter = this.filter.bind(this);
-    this.button = this.allCategories.bind(this)
-  };
+    };
   
   inputChg(event){
     this.props.filterText(event.target.value);
   }
-  filter(button){
-    const filterData = Data.filter(Data.category === button);
-    
-  }
-  allCategories(butons){
-    const allCategories = ['All', 'All', ...Data.map(Data => Data.category ===butons)];
-  }
+  
 
     render () {
       
@@ -66,7 +58,6 @@ class Table extends React.Component {
           {Data.map((val, key) => {
             const filterValue = this.props.filterValue;
             const listName = val.name;
-            const listCate = val.category;
             if((!filterValue) || (listName.toLowerCase().indexOf(filterValue)!==-1)){
             return (
             <tr>
@@ -77,7 +68,10 @@ class Table extends React.Component {
               <td> {val.foundDate } </td>
             </tr>
                   )
-                }})}
+                }
+                return (
+                  <div></div>
+                )})}
         </tbody>
       </table>
       

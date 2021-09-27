@@ -48,7 +48,7 @@ function AddForm() {
                 <div className="parentDiv">
                     <div className="formName form-div">
                         <label>Full Name</label><br/>
-                        <input value="name" className="fname"/>
+                        <input value="name" className="fname" onChange={handleAddFormChange}/>
                     </div>
                     <div className="form-div">
                     <label>Category</label><br/>

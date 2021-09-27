@@ -1,9 +1,5 @@
 import React from "react";
 import "./App.css";
-import Table from "./Components/Table"
-import Sidebar from "./Components/Sidebar";
-import HeadSearch from "./Components/HeadSearch";
-import AddForm from "./Components/AddForm";
 import Home from "./pages/Home";
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import Add from './pages/Add'
