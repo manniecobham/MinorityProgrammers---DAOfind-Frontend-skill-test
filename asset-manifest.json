@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/-MinorityProgrammers---DAOfind-Frontend/static/css/main.60183182.chunk.css",
+    "main.js": "/-MinorityProgrammers---DAOfind-Frontend/static/js/main.6c7f57c8.chunk.js",
+    "main.js.map": "/-MinorityProgrammers---DAOfind-Frontend/static/js/main.6c7f57c8.chunk.js.map",
+    "runtime-main.js": "/-MinorityProgrammers---DAOfind-Frontend/static/js/runtime-main.b32787e1.js",
+    "runtime-main.js.map": "/-MinorityProgrammers---DAOfind-Frontend/static/js/runtime-main.b32787e1.js.map",
+    "static/js/2.e2f572ae.chunk.js": "/-MinorityProgrammers---DAOfind-Frontend/static/js/2.e2f572ae.chunk.js",
+    "static/js/2.e2f572ae.chunk.js.map": "/-MinorityProgrammers---DAOfind-Frontend/static/js/2.e2f572ae.chunk.js.map",
+    "index.html": "/-MinorityProgrammers---DAOfind-Frontend/index.html",
+    "static/css/main.60183182.chunk.css.map": "/-MinorityProgrammers---DAOfind-Frontend/static/css/main.60183182.chunk.css.map",
+    "static/js/2.e2f572ae.chunk.js.LICENSE.txt": "/-MinorityProgrammers---DAOfind-Frontend/static/js/2.e2f572ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b32787e1.js",
+    "static/js/2.e2f572ae.chunk.js",
+    "static/css/main.60183182.chunk.css",
+    "static/js/main.6c7f57c8.chunk.js"
+  ]
+}
