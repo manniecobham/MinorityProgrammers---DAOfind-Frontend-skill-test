@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       
       <Switch>
-        <Route path="/MinorityProgrammers---DAOfind-Frontend-skill-test" exact component={Home} />
+        <Route path="/MinorityProgrammers---DAOfind-Frontend-skill-test/" exact component={Home} />
         <Route path="/add"  component={Add} />
         <Route path="/Learn" component={Learn} />
       </Switch>
